@@ -32,7 +32,7 @@ class MapController {
 		return body;
 	}
 	
-	//for ev charging
+	
 	@GetMapping("/map/evcharger")
 	fun getEvCharging(@RequestParam("prox") prox: String): String {
 		
